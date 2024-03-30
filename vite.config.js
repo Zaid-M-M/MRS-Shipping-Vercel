@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './client/',
+  base: './client/index.html',
   define: {
     'process.env': process.env,
     global: {}, // Make sure gsap is available globally
